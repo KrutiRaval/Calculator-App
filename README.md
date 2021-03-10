@@ -1,4 +1,5 @@
-# Calculator Web Application which allows basic Arithmatic Operation buit using ReactJs, HTML, CSS
+# Calculator Web Application 
+It allows basic Arithmatic Operation buit using ReactJs, HTML, CSS
 
 # Getting Started with Create React App
 
