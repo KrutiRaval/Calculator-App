@@ -1,3 +1,4 @@
+//For testing the calculate function
 export default (checkResult) => {
     if(checkResult.includes('--')){
         checkResult = checkResult.replace('--','+')

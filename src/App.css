@@ -1,5 +1,6 @@
+/* This file is used for styling up the entire application including the keypad and result component */
 .result {
-    overflow: scroll;
+    overflow: auto;
     height: 120px;
     background-color: #DCDCDC;
     width: 98%;

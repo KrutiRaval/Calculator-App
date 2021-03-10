@@ -1,5 +1,7 @@
+import '@testing-library/jest-dom';
 import calculate from './calculate';
 
+//Testing of the app component
 describe('App', () => {
   let expression;
   it ('evaluates the expression correctly', () => {
@@ -19,6 +21,11 @@ describe('App', () => {
   it ('evaluates expressions starting with a "-" operator', () => {
     expression = '-30'
     expect(calculate(expression)).toBe(-30);
+  })
+
+  it ('evaluates expressions with a "." operator', () => {
+    expression = '5.5-9'
+    expect(calculate(expression)).toBe(-3.5);
   })
 
   it ('evaluates longer expressions starting with a "-" operator', () => {

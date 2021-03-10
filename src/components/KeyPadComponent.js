@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
 
+//This component is for the keypad and operators for sccessibility while performing arithmatic operations
 class KeyPadComponent extends Component {
 
     render() {
         return (
             <div>
             <div className="button">
-                {/* <button name="(" onClick={e => this.props.onClick(e.target.name)}>(</button>
-                <button name="CE" onClick={e => this.props.onClick(e.target.name)}>Del</button>
-                <button name=")" onClick={e => this.props.onClick(e.target.name)}>)</button> */}
             
                 <button name="1" onClick={e => this.props.onClick(e.target.name)}>1</button>
                 <button name="2" onClick={e => this.props.onClick(e.target.name)}>2</button>
