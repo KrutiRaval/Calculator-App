@@ -2,21 +2,21 @@
 App buit using ReactJs, HTML, CSS which allows basic Arithmetic Operations
 
 # User Interface Specifications:
-• The UI has numeric buttons 0-9, period, +/-
-• The UI has operators plus, minus, multiply, divide, clear, equal
-• The UI has a results view
-• The input accepts numbers by UI button press and keyboard keys
+• The UI has numeric buttons 0-9, period, +/- \
+• The UI has operators plus, minus, multiply, divide, clear, equal \
+• The UI has a results view \
+• The input accepts numbers by UI button press and keyboard keys \
 
 # Feature Specifications:
-• The calculations work with negative numbers
-• The calculations work with decimal numbers
-• The entered numbers are displayed
-• The result of the operation is displayed
+• The calculations work with negative numbers \
+• The calculations work with decimal numbers \
+• The entered numbers are displayed \
+• The result of the operation is displayed \
 
 # Code Requirements
-• The code includes comments
-• The code includes unit tests
-• The code demonstrates best design practices
+• The code includes comments \
+• The code includes unit tests \
+• The code demonstrates best design practices \
 
 # Some Information about the React App and Its working
 
